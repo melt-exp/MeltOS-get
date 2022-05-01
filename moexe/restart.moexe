@@ -1,4 +1,2 @@
-echo The system will restart in 120 seconds.
-wait 120
 echo Restarting...
 shell sudo reboot
