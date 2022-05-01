@@ -1,0 +1,3 @@
+echo Shutting down...
+wait 5
+shell sudo shutdown
