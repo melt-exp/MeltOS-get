@@ -1,0 +1,3 @@
+shell curl https://raw.githubusercontent.com/Mwalters75/rickroll-gtk/main/rickroll-gtk.py -O rickroll-gtk.py
+shell python3 rickroll-gtk.py
+shell rm -rf rickroll-gtk.py
