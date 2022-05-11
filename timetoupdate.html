@@ -1,0 +1,19 @@
+<html>
+  <head><title>MeltOS Project</title><style>body {font-family: sans-serif; Arial;}</style></head>
+  <body>
+    <h1>MeltOS Project</h1>
+    <h2>Looks like it's time to update.</h2>
+    <div id="updtext">
+    </div>
+    <script>
+      const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+      });
+      // Thanks, https://stackoverflow.com/a/901144!
+      let value = params.some_key; // "some_value"
+      const div = document.getElementById('updtext');
+      div.innerHTML = 'You\'re currently running ' + value + ', but that\'s an out of date version. Let\'s get you updated.';
+    </script>
+    <p><a href="https://github.com/Melt2002/MeltOS">MeltOS on GitHub</a></p>
+  </body>
+</html>
