@@ -8,6 +8,7 @@
     <script>
       const urlParams = new URLSearchParams(window.location.search);
       const verParam = urlParams.get('version');
+      const div = document.getElementById('updtext');
       div.innerHTML = `You\re currently running ${verParam}, but that's an out of date version. Let's get you updated.`;
     </script>
     <p><a href="https://github.com/Melt2002/MeltOS">MeltOS on GitHub</a></p>
