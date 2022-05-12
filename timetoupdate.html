@@ -1,0 +1,16 @@
+<html>
+  <head><title>MeltOS Project</title><style>body {font-family: sans-serif; Arial;}</style></head>
+  <body>
+    <h1>MeltOS Project</h1>
+    <h2>Looks like it's time to update.</h2>
+    <div id="updtext">
+    </div>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const verParam = urlParams.get('version');
+      const div = document.getElementById('updtext');
+      div.innerHTML = `You\re currently running ${verParam}, but that's an out of date version. Let's get you updated.`;
+    </script>
+    <p><a href="https://github.com/Melt2002/MeltOS/releases/latest">Update Now</a></p>
+  </body>
+</html>
