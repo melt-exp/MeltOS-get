@@ -1,5 +1,3 @@
-echo This probably only works on Linux.
-wait 1
 echo Sending you there...
 wait 5
 shell xdg-open https://meower.org
