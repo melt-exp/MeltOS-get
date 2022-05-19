@@ -1,0 +1,3 @@
+echo Sending you there...
+wait 5
+shell xdg-open https://meower.org
