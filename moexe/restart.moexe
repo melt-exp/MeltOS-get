@@ -1,3 +1,3 @@
 echo Restarting...
-wait 5
-shell sudo reboot
+sleep 5
+run sudo reboot

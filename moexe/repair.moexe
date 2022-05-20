@@ -1,3 +1,3 @@
 echo Repairing MeltOS...
-shell curl -s https://raw.githubusercontent.com/Melt2002/MeltOS/main/main.py -o main.py
-py3 main.py
+run curl -s https://raw.githubusercontent.com/Melt2002/MeltOS/main/main.py -o main.py
+script -py main.py

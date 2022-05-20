@@ -1,5 +1,5 @@
 echo This probably only works on windows.
-wait 1
-Sending you there...
-wait 5
-shell start https://meower.org
+sleep 1
+echo Sending you there...
+sleep 5
+run start https://meower.org
